@@ -10,6 +10,10 @@ This repository contains the official PyTorch implementation of the following pa
 
 
 
+Our trained model can be found in [Baidu Cloud](https://pan.baidu.com/s/1E9Dj_DeRCLiZgVp625SjLA) (access code: 5jz4). Download and put it under this directory. To test and re-produce the reported results in our paper, run:
+
+`python test.py  --name bargainnet  --model bargainnet --dataset_mode iharmony4 --is_train 0  --norm batch --preprocess resize --gpu_ids 0  --input_nc 20 --netG s2ad`
+
 ## Bibtex
 If you find this work is useful for your research, please cite our paper using the following **BibTeX  [[pdf]()] [[supp]()] [[arxiv](https://arxiv.org/abs/2009.09169)]:**
 
