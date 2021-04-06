@@ -11,24 +11,21 @@ This repository contains the official PyTorch implementation of the following pa
 > [Wenyan Cong](https://wenyancong.com/), [Li Niu](http://bcmi.sjtu.edu.cn/home/niuli/), [Jianfu Zhang](http://scholar.google.com/citations?user=jSiStc4AAAAJ&hl=zh-CN), Jing Liang, Liqing Zhang<br>MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University<br>
 > https://arxiv.org/abs/2009.09169<br>Accepted by **ICME2021** as **Oral**.
 
+​		
+
 ​		In this work, we treat different capture conditions as different domains. Therefore, the foreground and background of real images captured in the same condition belong to the same domain. The foreground and background of composite images belong to two different domains. In this case, image harmonization could be regarded as transferring the foreground domain to the background domain, making it a special case of domain translation. However, in our task, the domain labels are hard to define and hard to solicit from users. So inspired by example-guided domain translation, we formulate image harmonization task as **background-guided domain translation**, which provides a new perspective for image harmonization.
 
 
 
 <img src='images/intro.jpg' align="center" width=1024>
 
-<center><font size=2>Figure. 1: (a) Illustration of different domains corresponding to different capture conditions. (b) Our BargainNet utilizes background domain code to guide the foreground domain translation, resulting in consistent foreground and background.</font></center>
 ​         The network architecture of our BargainNet consists of attention enhanced U-Net generator G and domain code extractor E. The domain code extractor could extract the domain code for a region with an irregular shape. We employ two types of triplet losses based on four types of domain codes. The test phase is highlighted with red flow lines for clarity.
 
 <img src='images/network.jpg' align="center" width=800>
 
-<center><font size=2>Figure. 2: Network architecture of our BargainNet.</font></center>
-
 ​    		Our method could generate more favorable results with consistent foreground and background.
 
 <img src='images/fg_harm.jpg' align="center" width=1024>
-
-<center><font size=2>Figure. 3: Example results of baselines and our method on four sub-datasets.</font></center>
 
 ​		In addition, by inverting the mask fed into the generator and the domain code extractor in the testing stage, our BargainNet could be easily applied to background harmonization, which adjusts the background to make it compatible with the foreground.
 
@@ -39,8 +36,6 @@ This repository contains the official PyTorch implementation of the following pa
 ​		Based on the extracted domain codes of foreground and background, we can predict the inharmony level of a composite image by calculating the Euclidean distance between two domain codes, reflecting to which extent the foreground is incompatible with the background. Inharmony level provides an intuitive perspective for inharmony assessment, which is an enticing byproduct of our method and useful for image harmonization related tasks.
 
 <img src='images/inharm_pred.jpg' align="center" width=1024>
-
-<center><font size=2>Figure. 5: Examples of composite images with different inharmony levels.</font></center>
 
 
 
