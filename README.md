@@ -42,7 +42,7 @@ To view training results and loss plots, run `python -m visdom.server` and click
 
 ## Evaluation
 
-Our trained model can be found in [Baidu Cloud](https://pan.baidu.com/s/1AYMKS8AieLzO5RoXj0ASRQ) (access code: adr4) [**(Alternative_address)**](https://bcmi.cloud:5001/sharing/yZlCycSZo). Download and put it under `./checkpoints/<experiment_name>/`. To test and re-produce the reported results in our paper, run:
+Our trained model can be found in [Baidu Cloud](https://pan.baidu.com/s/1AYMKS8AieLzO5RoXj0ASRQ) (access code: adr4) [**(Alternative_address)**](https://bcmi.cloud:5001/sharing/IQmvqfgx8). Download and put it under `./checkpoints/<experiment_name>/`. To test and re-produce the reported results in our paper, run:
 
 `python test.py  --name <experiment_name>  --model bargainnet --dataset_mode iharmony4 --is_train 0  --norm batch --preprocess resize --gpu_ids 0  --input_nc 20 --netG s2ad`
 
