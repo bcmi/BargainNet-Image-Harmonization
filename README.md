@@ -48,6 +48,10 @@ Our trained model can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1
 
 When testing, it prints the results of evaluation metrics MSE, PSNR, and fMSE. It also saves the harmonized outputs in `./results/<experiment_name>/latest_test/images/`
 
+## Other Resources
+
++ [Awesome-Image-Harmonization](https://github.com/bcmi/Awesome-Image-Harmonization)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
 
 
 ## Bibtex
