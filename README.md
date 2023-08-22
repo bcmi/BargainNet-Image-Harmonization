@@ -48,6 +48,12 @@ Our trained model can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1
 
 When testing, it prints the results of evaluation metrics MSE, PSNR, and fMSE. It also saves the harmonized outputs in `./results/<experiment_name>/latest_test/images/`
 
+
+## Harmony Score
+
+Given a composite image, we can extract the domain codes of foreground and background, and measure their similarity which is normalized within [0,1]. The normalized similarity score is referred to as harmony score. Larger harmony score implies more harmonious composite image. 
+
+
 ## Other Resources
 
 + [Awesome-Image-Harmonization](https://github.com/bcmi/Awesome-Image-Harmonization)
