@@ -53,6 +53,11 @@ When testing, it prints the results of evaluation metrics MSE, PSNR, and fMSE. I
 
 Given a composite image, we can extract the domain codes of foreground and background, and measure their similarity which is normalized within [0,1]. The normalized similarity score is referred to as harmony score. Larger harmony score implies more harmonious composite image. 
 
+To predict harmony score for a composite image, download the pretrained model and save it to the directory `checkpoints`, then run:
+
+`python predict_harmony_score.py --image <composite-image-path> --mask <foreground-mask-path>`
+
+In the directory `examples`, we provide several pairs of composite images and associated foreground masks.
 
 ## Other Resources
 
