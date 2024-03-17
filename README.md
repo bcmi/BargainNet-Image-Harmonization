@@ -7,6 +7,8 @@ This repository contains the official PyTorch implementation of the following pa
 > [Wenyan Cong](https://wenyancong.com/), [Li Niu](http://bcmi.sjtu.edu.cn/home/niuli/), [Jianfu Zhang](http://scholar.google.com/citations?user=jSiStc4AAAAJ&hl=zh-CN), Jing Liang, Liqing Zhang<br>MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University<br>
 > https://arxiv.org/abs/2009.09169<br>Accepted by **ICME2021** as **Oral**.
 
+ **Part of our BargainNet has been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
+
 **Our domain code extractor can extract the domain code of an image region, which contains the illumination information.** The domain codes can be used to measure the illumination compatibility between different regions.
 
 ## Introduction
