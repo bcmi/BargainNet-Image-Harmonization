@@ -62,7 +62,7 @@ In the directory `examples`, we provide several pairs of composite images and as
 ## Other Resources
 
 + [Awesome-Image-Harmonization](https://github.com/bcmi/Awesome-Image-Harmonization)
-+ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Image-Composition)
++ [Awesome-Image-Composition](https://github.com/bcmi/Awesome-Object-Insertion)
 
 
 ## Bibtex
