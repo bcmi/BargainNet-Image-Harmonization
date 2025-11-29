@@ -11,6 +11,10 @@ This repository contains the official PyTorch implementation of the following pa
 
 **Our domain code extractor can extract the domain code of an image region, which contains the illumination information.** The domain codes can be used to measure the illumination compatibility between different regions.
 
+## Online Demo
+
+Try this [online demo](http://libcom.ustcnewly.com/) for image composition and have fun!
+
 ## Introduction
 
 <img src='images/intro.jpg' align="center" width=1024>
