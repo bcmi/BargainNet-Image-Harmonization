@@ -15,6 +15,8 @@ This repository contains the official PyTorch implementation of the following pa
 
 Try this [online demo](http://libcom.ustcnewly.com/) for image composition and have fun!
 
+[![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
+
 ## Introduction
 
 <img src='images/intro.jpg' align="center" width=1024>
